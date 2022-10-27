@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header h1{
+    color: red;
+    text-align: center;
+    padding-top: 12px;
+}
+header h1::after{
+    content: '';
+    display: block;
+    border: 1px solid black;
+}
+
+h2{
+    color: royalblue;
+    text-align: center;
+    padding-top: 12px;
+}
+ 
+.btn1{
+    font-size: 1.7rem;
+    color: blue;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border-radius: 5px;
+}
+.btn2{
+    font-size: 1.7rem;
+    color: blue;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    border-radius: 5px;
+}
+.btn3{
+    font-size: 1.7rem;
+    color: blue;
+    position: absolute;
+    top: 25%;
+    left: 51%;
+    border-radius: 5px;
+}
