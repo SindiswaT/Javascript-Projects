@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Oxanium:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Scoreboard</title>
+</head>
+<body>
+    <div class="container">
+
+        <div>
+            <div>
+            <h1>HOME</h1>
+            <div class="score-box">
+                <h2 id="h-score-num">0</h2>
+            </div>
+            <button onclick="addOne()">+1</button>
+            <button onclick="addTwo()">+2</button>
+            <button onclick="addThree()">+3</button>
+            </div>
+        </div>
+        
+
+        <div>
+            <h1>GUEST</h1>
+            <div class="score-box">
+                <h2 id="g-score-num">0</h2>
+            </div>
+            <button onclick="addOneG()">+1</button>
+            <button onclick="addTwoG()">+2</button>
+            <button onclick="addThreeG()">+3</button>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
