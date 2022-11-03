@@ -19,35 +19,35 @@ function generateComputerChoice() {
     if(randomNumber === 1){
         computerChoice = 'rock'
     }
-    if(randomNumber === 2){
+    else if(randomNumber === 2){
         computerChoice = 'paper'
     }
-    if(randomNumber === 3){
+    else{
         computerChoice = 'scissors'
     }
     computerChoiceDisplay.innerHTML = computerChoice
 }
 
 function getResult(){
-    if(computerChoice === playerChoice){
-        result = 'its a draw'
+    if(computerChoice == playerChoice){
+        result = 'its a draw!'
     }
-    if(computerChoice === 'rock' && playerChoice === 'paper'){
+    else if(computerChoice === 'rock' && playerChoice === 'paper'){
         result = 'you win!'
     }
-    if(computerChoice === 'rock' && playerChoice === 'scissors'){
+    else if(computerChoice === 'rock' && playerChoice === 'scissors'){
         result = 'you lose!'
     }
-    if(computerChoice === 'paper' && playerChoice === 'scissors'){
+    else if(computerChoice === 'paper' && playerChoice === 'scissors'){
         result = 'you win!'
     }
-    if(computerChoice === 'paper' && playerChoice === 'rock'){
+    else if(computerChoice === 'paper' && playerChoice === 'rock'){
         result = 'you lose!'
     }
-    if(computerChoice === 'scissors' && playerChoice === 'rock'){
+    else if(computerChoice === 'scissors' && playerChoice === 'rock'){
         result = 'you win!'
     }
-    if(computerChoice === 'scissors' && playerChoice === 'paper'){
+    else{
         result = 'you lose!'
     }
     resultDisplay.innerHTML = result 

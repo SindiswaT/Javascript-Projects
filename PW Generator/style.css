@@ -1,0 +1,46 @@
+body{
+    background: #ECFDF5;
+    text-align: center;
+}
+
+h2{
+    color: #252525;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+h2 span{
+    color: #10B981;
+    ;
+}
+p{
+    color: lightslategray;
+    font-size: 1.5rem;
+}
+
+button{
+    color: whitesmoke;
+    background: #10B981;
+    font-size: 1rem;
+    border: none;
+    height: 42px;
+    width: 191px;
+    left: 52px;
+    top: 284px;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+}
+
+.container{
+    border-top: 1px solid black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#pwOne, #pwTwo{
+    background: #273549;
+    color: #10B981;
+    padding: 10px;
+    border-radius: 6px;
+    height: 30px;
+    width: 210px;
+}
