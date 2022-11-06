@@ -10,11 +10,11 @@
 <body>
     <h2>Generate a <br><span>random password!</span></h2>
     <p>Never use a weak password again</p>
-    <button id="btn-pw" onclick="generatePassword()">Generate passwords</button>
-
+    <input type="text" id="password" placeholder="Create password" readonly>
+    
     <div class="container">
-        <p id="pwOne"></p>
-        <p id="pwTwo"></p>
+        <button id="btn1" onclick="genPassword()">Generate</button>
+        <button id="btn2" onclick="copyPassword()">Copy</button>
     </div>
 
     <script src="main.js"></script>
