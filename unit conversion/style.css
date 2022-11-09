@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+body{
+    text-align: center;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.header{
+    background: #6943FF;
+    padding: 10px;
+    color: whitesmoke;
+}
+input{
+    width: 120px;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0 20px 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+main{
+    background: #1F2937;
+    padding: 10px;
+    color: #CCC1FF;
+}
+main h4{
+    margin-top: 20px;
+}
+.len-container,
+.vol-container,
+.mass-container{
+    background: #273549;
+    padding: 10px;
+    margin: 10px;
+    height: 110px;
+    font-size: 1.2rem;
+}
+p{
+    color: whitesmoke;
+    margin-top: 20px;
+}
