@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
+.nav .time{
+    margin-left: 40px;
+}
+#score,
+#time-left{
+    margin-left: 5px;
+}
+button{
+    width: 80px;
+    height: 40px;
+    border: black solid 1px;
+    border-radius: 4px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+button:hover{
+    background: green;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    height: 606px;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+.mole{
+    background: url("mole.jpg");
+    background-size: cover;
+}
