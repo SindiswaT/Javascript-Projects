@@ -1,0 +1,43 @@
+.grid{
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background: blue;
+}
+.user{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background: purple;
+}
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: red;
+}
+.container{
+    display: flex;
+}
+#score{
+    margin: 3px 0 0 60px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3rem;
+}
+#btn{
+    margin: 10px 0 0 80px;
+    width: 70px;
+    height: 25px;
+    border-radius: 4px;
+    border: none;
+    background: green;
+    font-size: 1rem;
+}
