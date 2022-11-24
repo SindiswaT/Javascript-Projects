@@ -19,9 +19,10 @@ button{
     background-color: transparent;
     margin-bottom: 10px;
     font-size: 1.3rem;
+    background: green;
 }
 button:hover{
-    background: green;
+    background: greenyellow;
 }
 .grid{
     display: flex;
