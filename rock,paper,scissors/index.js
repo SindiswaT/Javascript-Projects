@@ -17,13 +17,13 @@ function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) + 1 // or use possibleChoices.length
     
     if(randomNumber === 1){
-        computerChoice = 'rock'
+        computerChoice = '🪨'
     }
     else if(randomNumber === 2){
-        computerChoice = 'paper'
+        computerChoice = '📃'
     }
     else{
-        computerChoice = 'scissors'
+        computerChoice = '✂'
     }
     computerChoiceDisplay.innerHTML = computerChoice
 }
@@ -32,22 +32,22 @@ function getResult(){
     if(computerChoice === playerChoice){
         result = 'its a draw!'
     }
-    else if(computerChoice === 'rock' && playerChoice === 'paper'){
+    else if(computerChoice === '🪨' && playerChoice === '📃'){
         result = 'you win!'
     }
-    else if(computerChoice === 'rock' && playerChoice === 'scissors'){
+    else if(computerChoice === '🪨' && playerChoice === '✂'){
         result = 'you lose!'
     }
-    else if(computerChoice === 'paper' && playerChoice === 'scissors'){
+    else if(computerChoice === '📃' && playerChoice === '✂'){
         result = 'you win!'
     }
-    else if(computerChoice === 'paper' && playerChoice === 'rock'){
+    else if(computerChoice === '📃' && playerChoice === '🪨'){
         result = 'you lose!'
     }
-    else if(computerChoice === 'scissors' && playerChoice === 'rock'){
+    else if(computerChoice === '✂' && playerChoice === '🪨'){
         result = 'you win!'
     }
-    else if (computerChoice === 'scissors' && playerChoice === 'paper'){
+    else if(computerChoice === '✂' && playerChoice === '📃'){
         result = 'you lose!'
     }
     resultDisplay.innerHTML = result 
