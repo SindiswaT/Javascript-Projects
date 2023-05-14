@@ -1,22 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Password Generator</title>
-</head>
-<body>
-    <h2>Generate a <br><span>random password!</span></h2>
-    <p>Never use a weak password again</p>
-    <input type="text" id="password" placeholder="Create password" readonly>
-    
-    <div class="container">
-        <button id="btn1" onclick="genPassword()">Generate</button>
-        <button id="btn2" onclick="copyPassword()">Copy</button>
-    </div>
+  </head>
+  <body>
+    <h2>Generate a <br /><span>random password!</span></h2>
+    <p style="font-weight: bold; font-style: italic;">Never use a weak password again</p>
+
+    <section>
+      <div class="div-contain">
+        <h4>Numbers Only</h4>
+        <input
+          type="text"
+          id="num-password"
+          placeholder="Create password"
+          readonly
+        />
+
+        <div class="container">
+          <button id="btn1" onclick="genNumPassword()">Generate</button>
+          <button id="btn2" onclick="copyNumPassword()">Copy</button>
+        </div>
+      </div>
+
+      <div class="div-contain">
+        <h4>Characters Only</h4>
+        <input
+          type="text"
+          id="char-password"
+          placeholder="Create password"
+          readonly
+        />
+
+        <div class="container">
+          <button id="btn1" onclick="genCharPassword()">Generate</button>
+          <button id="btn2" onclick="copyCharPassword()">Copy</button>
+        </div>
+      </div>
+
+      <div class="div-contain">
+        <h4>Numbers and Characters</h4>
+        <input
+          type="text"
+          id="password"
+          placeholder="Create password"
+          readonly
+        />
+
+        <div class="container">
+          <button id="btn1" onclick="genPassword()">Generate</button>
+          <button id="btn2" onclick="copyPassword()">Copy</button>
+        </div>
+      </div>
+    </section>
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

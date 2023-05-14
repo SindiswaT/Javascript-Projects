@@ -12,6 +12,18 @@ h2 span{
     color: #10B981;
     ;
 }
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.div-contain{
+    border: 1px solid green;
+    padding: 10px;
+}
+h4{
+    color: gray;
+    font-size: 1.2rem;
+}
 input{
     font-size: 1rem;
     background: #273549;
@@ -42,7 +54,6 @@ button:hover{
     background: #273549;
 }
 .container{
-    border-top: 1px solid black;
     margin-top: 20px;
     display: flex;
     justify-content: center;
